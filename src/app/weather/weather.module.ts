@@ -1,13 +1,10 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { WeatherHomeComponent } from './weather-home/weather-home.component';
-
-
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { WeatherHomeComponent } from "./weather-home/weather-home.component";
+import { WeatherRoutingModule } from "./weather-routing.module";
 
 @NgModule({
   declarations: [WeatherHomeComponent],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule, WeatherRoutingModule],
 })
-export class WeatherModule { }
+export class WeatherModule {}
