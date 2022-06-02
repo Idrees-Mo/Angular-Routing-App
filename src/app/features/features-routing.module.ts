@@ -1,8 +1,8 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { FeturesHomeComponent } from "./fetures-home/fetures-home.component";
+import { FeaturesHomeComponent } from "./features-home/fetures-home.component";
 
-const routes: Routes = [{ path: "features", component: FeturesHomeComponent }];
+const routes: Routes = [{ path: "features", component: FeaturesHomeComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,10 +1,10 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { FeturesHomeComponent } from "./fetures-home/fetures-home.component";
+import { FeaturesHomeComponent } from "./features-home/fetures-home.component";
 import { FeaturesRoutingModule } from "./features-routing.module";
 
 @NgModule({
-  declarations: [FeturesHomeComponent],
+  declarations: [FeaturesHomeComponent],
   imports: [CommonModule, FeaturesRoutingModule],
 })
 export class FeaturesModule {}
