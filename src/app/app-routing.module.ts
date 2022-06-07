@@ -21,6 +21,11 @@ const routes: Routes = [
     loadChildren: () =>
       import("./weather/weather.module").then((m) => m.WeatherModule),
   },
+  {
+    path: "users",
+    loadChildren: () =>
+      import("./users/users.module").then((m) => m.UsersModule),
+  },
   { path: "", component: LandingPageComponent },
   { path: "**", component: NotFoundPageComponent },
 ];
