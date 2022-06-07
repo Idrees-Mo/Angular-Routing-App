@@ -1,7 +1,7 @@
 <p>users-home works!</p>
 <ul>
   <li *ngFor="let user of users">
-    <a [routerLink]="['/users', user.id]">
+    <a [routerLink]="['/users', user.id, user.name]">
       {{ user.name }}
     </a>
   </li>
