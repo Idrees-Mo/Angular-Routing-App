@@ -10,7 +10,7 @@ export class CollectionHomeComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {}
-  loadWeather() {
+  loadWeather(): void {
     this.router.navigate(["/weather"]);
   }
 }
